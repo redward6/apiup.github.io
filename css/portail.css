@@ -49,7 +49,7 @@ img{
 }  
 .overlay{ 
   position: absolute; 
-  transition: 0.5s ease; 
+  transition: .7s ease; 
   width: 32vw;
   height: 39vh;
   top: 25vh; 
