@@ -1,0 +1,86 @@
+body{
+  
+  background: #feffff; 
+  margin: 0%;
+  padding: 0%;
+ 
+}
+
+h1{ 
+   box-shadow: 0px 20px 48px -9px rgba(0,0,0,0.23);
+  padding-left: 2%;
+  font-size: 3em;
+  font-family: sans-serif;
+  width: 20%;
+  
+}
+
+main{
+  
+  color:black;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+img{
+  
+  width: 32vw;
+  height: 39vh;
+}
+.gestion:hover .overlay { 
+  opacity: 0.9; 
+  color: rgb(255, 255, 255);
+
+  transform: translate(20px, -20px)
+}  
+.cuir:hover .overlay { 
+  opacity: 0.9; 
+  color: rgb(255, 255, 255);
+  transform: translate(20px, -20px)
+}  
+.amenagement:hover .overlay { 
+  opacity: 0.9; 
+  color: rgb(255, 255, 255);
+  transform: translate(20px, -20px)
+}  
+.overlay{ 
+  position: absolute; 
+  transition: 0.5s ease; 
+  width: 32vw;
+  height: 39vh;
+  top: 25vh; 
+  border: rgb(255, 255, 255) 1px solid;
+     box-shadow: 0px 20px 48px -9px rgba(0,0,0,0.23);
+  background-color: rgb(15, 15, 15); 
+opacity: 0;
+} 
+
+.rse{
+  font-size: 2em;
+  font-weight: small;
+  width:96.3%;
+  text-align: center;
+  background-color: green;
+  margin: auto;
+  text-decoration: none;
+  color: aliceblue;
+ 
+}
+
+main a{
+  text-decoration: none;
+  color: black;
+  
+}
+.rse a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+
+
+ 
+}
