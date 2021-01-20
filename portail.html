@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css/portail.css">
   <title>portail</title>
 </head>
@@ -11,6 +14,30 @@
 <body>
   <header>
     <h1>API'UP</h1>
+
+
+    <button id="modal-btn" class="button">Info</button>
+
+    <div id="my-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p>INFO</p>
+          <span class="close">&times;</span>
+
+        </div>
+        <div class="modal-body">
+         
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa
+            velit
+            repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo
+            commodi ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugiat ducimus excepturi officia
+            perspiciatis nisi quas, optio enim est at, aliquid expedita ea praesentium repudiandae nulla recusandae id
+            porro fuga.</p>
+        </div>
+
+      </div>
+    </div>
   </header>
   <main class="container">
 
@@ -47,7 +74,7 @@
 
     <section class="amenagement">
       <a href="#">
-        <h3>AMÉNAGEMENT ÉCORESPONSABLE</h3>
+        <h3>AMÉNAGEMENT </h3>
         <img src="./img/portail/recyclage-comment-bien-trier-ses-dechets-a-la-maison.jpeg" alt="">
         <div class="overlay">
           <h3>Titre</h3>
@@ -69,7 +96,8 @@
       <h3>RSE</h3>
     </a>
   </section>
-
+  <script src="./js/portail.js"></script>
 </body>
 
 </html>
+
